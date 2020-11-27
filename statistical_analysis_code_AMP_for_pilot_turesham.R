@@ -144,7 +144,7 @@ erotic_trial_size_per_participant_per_trial_type = 9
 M0_prob = 0.5
 
 # interim analysis points (in total number of erotic trials performed)
-when_to_check = c(1600, 37836, 62388, 86958, 111528, 136080)
+when_to_check = c(1732, 37836, 62388, 86958, 111528, 136080)
 
 # thresholds to infer support for M0 (high) or M1 (low)
 Inference_threshold_BF_high = 25
@@ -356,8 +356,8 @@ total_N_sham = total_N
 successes_sham = successes
 which_threshold_passed_sham = which_threshold_passed
 BF_replication_sham = BF_replication
-BF_uniform_sham = BF_replication
-BF_BUJ_sham = BF_replication
+BF_uniform_sham = BF_uniform
+BF_BUJ_sham = BF_BUJ
 
 
 ######################################################################
@@ -501,8 +501,8 @@ total_N_true = total_N
 successes_true = successes
 which_threshold_passed_true = which_threshold_passed
 BF_replication_true = BF_replication
-BF_uniform_true = BF_replication
-BF_BUJ_true = BF_replication
+BF_uniform_true = BF_uniform
+BF_BUJ_true = BF_BUJ
 
 last_row_whole_study = c(last_row_sham, last_row_true)[which.max(c(last_row_sham, last_row_true))]
 
