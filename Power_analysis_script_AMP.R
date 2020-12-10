@@ -54,7 +54,7 @@ True_prob = c(0.5, 0.51)
 min_trialnumber_to_try = c(37836)
 max_trialnumber_to_try = 86958
 # Number of interim analysis points. Analyses will be performed at equal sample size distances.
-# in our study we use 5 interim analysis points.
+# in the AMP variant we use 3 interim analysis points.
 times_to_stop_to_try = 3
 # set BF threshold for inference decisions. Here the upper BF threshold needs to be specified as BF M0 vs M1.
 # for example if this is set to 25, support for M0 will be infered if BF is over 25, and support for M1 will be infered if BF is below 1/25.
